@@ -8,6 +8,7 @@ numpy
 pandas
 scipy
 pytorch
+visdom
 networkx
 dgl
 pickle
