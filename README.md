@@ -1,9 +1,21 @@
 # FE-STGNN
 The implementation of "FE-STGNN: Spatio-Temporal Graph Neural Network with Functional and Effective Connectivity Fusion for MCI Diagnosis".
 
+Requirements
 ```js
-// 给页面里所有的 DOM 元素添加一个 1px 的描边（outline）;
-[].forEach.call($$("*"),function(a){
-  a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16);
-})
+// install following packages;
+numpy
+pandas
+scipy
+pytorch
+networkx
+dgl
+pickle
+tqdm
 ```
+
+Data Download
+```js
+ADNI: https://adni.loni.usc.edu/
+```
+
